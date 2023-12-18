@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Getri_StronglyTypedViews.Models.Student>
+
+<h2>Student Details</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Student Branch</th>
+            <th>Student Section</th>
+            <th>Student Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.StudentId</td>
+                <td>@item.StudentName</td>
+                <td>@item.StudentBranch</td>
+                <td>@item.StudentSection</td>
+                <td>@item.StudentGender</td>
+            </tr>
+        }
+    </tbody>
+</table>
