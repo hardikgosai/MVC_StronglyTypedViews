@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Getri_StronglyTypedViews.Models.Customer>
+<h2>Customer Details</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Customer Id</th>
+            <th>Customer Name</th>
+            <th>Customer Address</th>
+            <th>Customer PhoneNo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CustId</td>
+                <td>@item.CustName</td>
+                <td>@item.CustAddress</td>
+                <td>@item.CustPhoneNo</td>
+            </tr>
+        }
+    </tbody>
+ </table>
