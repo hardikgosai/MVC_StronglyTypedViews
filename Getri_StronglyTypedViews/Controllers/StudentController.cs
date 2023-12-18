@@ -22,7 +22,7 @@ namespace Getri_StronglyTypedViews.Controllers
             student2.StudentName = "Smith";
             student2.StudentBranch = "ECE";
             student2.StudentSection = "B";
-            student1.StudentGender = "Female";
+            student2.StudentGender = "Female";
             list.Add(student2);
 
             Student student3 = new Student();
@@ -30,7 +30,7 @@ namespace Getri_StronglyTypedViews.Controllers
             student3.StudentName = "Mark";
             student3.StudentBranch = "EEE";
             student3.StudentSection = "C";
-            student1.StudentGender = "Male";
+            student3.StudentGender = "Male";
             list.Add(student3);
 
 
