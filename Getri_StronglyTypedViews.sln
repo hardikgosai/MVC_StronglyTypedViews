@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getri_StronglyTypedViews", "Getri_StronglyTypedViews\Getri_StronglyTypedViews.csproj", "{F959F844-3119-4F98-A438-B351C1D2208B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F959F844-3119-4F98-A438-B351C1D2208B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F959F844-3119-4F98-A438-B351C1D2208B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F959F844-3119-4F98-A438-B351C1D2208B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F959F844-3119-4F98-A438-B351C1D2208B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68AE381C-71EA-4432-8283-9A6E03801CD9}
+	EndGlobalSection
+EndGlobal
